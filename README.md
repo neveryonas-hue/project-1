@@ -41,7 +41,8 @@ Log in to AccountHub, open the customer profile, and scroll to the **Payment Pro
 
 > **Good to know:** When Autopay is selected, the payment token is generated automatically by the tool and can't be edited. If you just created the profile, refresh the screen to see the token appear.
 
-<!-- Add screenshot: AccountHub Payment Profile section with Autopay checkbox and launch options -->
+<img width="555" height="587" alt="06" src="https://github.com/user-attachments/assets/0b6f9a3a-0312-4ad1-bdf5-e90fa0e6fc12" />
+
 
 </details>
 
