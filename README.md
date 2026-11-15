@@ -67,14 +67,14 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 
 Use **Set up Credit Card Profile** in AccountHub when a profile already exists.
 
-### One-time payment on a different card (keep the saved card as default)
+## One-time payment on a different card (keep the saved card as default)
 
 1. Enter the payment amount. Full or partial payments are accepted.
 2. Select **New Credit Card**.
 3. Leave **Save Card** unchecked so the existing card stays as default.
 4. Send the secure link by **email** or **SMS**.
 
-### Replace the saved card with a new one
+## Replace the saved card with a new one
 
 1. Authorize the customer.
 2. Enter the payment amount (full or partial).
