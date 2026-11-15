@@ -1,6 +1,6 @@
 # How to Take Secure Card Payments
 
-> **About this sample:** Recreated from knowledge content I wrote for a national telecom provider's business support team. The company (Cedarline Business), systems (AccountHub, SecurePay Link Tool) and processes are fictional. The structure, writing and design decisions reflect the real work.
+> **About this sample:** Recreated from knowledge content I wrote for a national telecom provider's business support team. The company (Feature Not a Bug Inc.), systems (AccountHub, SecurePay Link Tool) and processes are fictional. The structure, writing and design decisions reflect the real work.
 
 **Audience:** Business support agents handling payment calls
 **Format:** Task-based knowledge article with expandable sections
@@ -13,7 +13,7 @@
 **Never.** Cedarline Business uses the **SecurePay Link Tool** so customers enter their own card details through a secure form. This meets Payment Card Industry (PCI) standards and protects customer information.
 
 - These calls are handled by the Business Support Team.
-- Customers can also pay online and set up auto-pay through **My Cedarline**. Mention it on every call.
+- Customers can also pay online and set up auto-pay through **My AccountHub**. Mention it on every call.
 - Tool not working? See *Troubleshooting* below.
 
 > **Important:** The secure link is only active for **15 minutes**. Tell the customer when you send it.
