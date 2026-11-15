@@ -41,7 +41,7 @@ Log in to AccountHub, open the customer profile, and scroll to the **Payment Pro
 
 > **Good to know:** When Autopay is selected, the payment token is generated automatically by the tool and can't be edited. If you just created the profile, refresh the screen to see the token appear.
 
-<img width="555" height="587" alt="06" src="https://github.com/user-attachments/assets/0b6f9a3a-0312-4ad1-bdf5-e90fa0e6fc12" />
+
 
 
 </details>
@@ -110,6 +110,8 @@ A new window opens with a **confirmation number**. Give it to the customer.
 After you send the secure link, here's the customer's experience. Walk them through it if they're unsure.
 
 **Step 1: They receive the link.** It arrives by email or SMS, depending on what you selected. They select it and land on a secure form.
+
+<img width="355" height="387" alt="06" src="https://github.com/user-attachments/assets/0b6f9a3a-0312-4ad1-bdf5-e90fa0e6fc12" />
 
 **Step 2: They complete the form.**
 - *New profile:* the customer enters the payment amount.
