@@ -23,7 +23,7 @@ Click a section below to expand it.
 ---
 
 <details>
-<summary><b>1. Launch the tool from AccountHub</b></summary>
+<summary><b>Task 1. Launch the tool from AccountHub</b></summary>
 
 Log in to AccountHub, open the customer profile, and scroll to the **Payment Profile** section.
 
@@ -46,7 +46,7 @@ Log in to AccountHub, open the customer profile, and scroll to the **Payment Pro
 </details>
 
 <details>
-<summary><b>2. Create a new payment profile</b></summary>
+<summary><b>Task 2. Create a new payment profile</b></summary>
 
 If no profile exists, you'll see a setup screen after selecting **Set up Credit Card Profile**.
 
@@ -62,7 +62,7 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 </details>
 
 <details>
-<summary><b>3. Update an existing profile</b></summary>
+<summary><b>Task 3. Update an existing profile</b></summary>
 
 Use **Set up Credit Card Profile** in AccountHub when a profile already exists.
 
@@ -89,7 +89,7 @@ Use **Set up Credit Card Profile** in AccountHub when a profile already exists.
 </details>
 
 <details>
-<summary><b>4. Take a payment on a saved card</b></summary>
+<summary><b>Task 4. Take a payment on a saved card</b></summary>
 
 If the profile has a saved card and the customer doesn't want changes:
 
