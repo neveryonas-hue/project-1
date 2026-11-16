@@ -3,8 +3,8 @@
 > **About this sample:** Recreated from knowledge content I wrote for a national telecom provider's business support team. The company (Feature Not a Bug Inc.), systems (AccountHub, SecurePay Link Tool) and processes are fictional. The structure, writing and design decisions reflect the real work.
 
 - **Audience:** Business support agents handling payment calls
-**Format:** Task-based knowledge article with expandable sections
-**Goal:** Help agents find the right procedure in seconds, and handle customer pushback with confidence
+- **Format:** Task-based knowledge article with expandable sections
+- **Goal:** Help agents find the right procedure in seconds, and handle customer pushback with confidence
 
 ---
 
