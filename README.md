@@ -65,6 +65,7 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 <details>
 <summary><b>Step 3. Update an existing profile</b></summary>
 
+> **Good to know:** When Autopay is selected, the payment token is generated automatically by the tool and can't be edited. If you just created the profile, refresh the screen to see the token appear.
 
 > Use **Set up Credit Card Profile** in AccountHub when a profile already exists.
 
