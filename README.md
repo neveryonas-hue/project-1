@@ -23,7 +23,7 @@ Click a section below to expand it.
 ---
 
 <details>
-<summary><b>Task 1. Launch the tool from AccountHub</b></summary>
+<summary><b>Step 1. Launch the tool from AccountHub</b></summary>
 
 Log in to AccountHub, open the customer profile, and scroll to the **Payment Profile** section.
 
