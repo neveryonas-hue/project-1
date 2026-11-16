@@ -65,6 +65,7 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 <details>
 <summary><b>Step 3. Update an existing profile</b></summary>
 
+
 >Use **Set up Credit Card Profile** in AccountHub when a profile already exists.
 
 **One-time payment on a different card (keep the saved card as default)**
