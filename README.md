@@ -58,7 +58,8 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 
 > **Important:** The link expires after 15 minutes. Let the customer know.
 
-<!-- Add screenshot: Create profile screen with Add Card and Pre-Auth Flag -->
+<img width="512" height="407" alt="01" src="https://github.com/user-attachments/assets/73d225f5-fa80-493d-88e8-39d2f48bc026" />
+
 
 </details>
 
