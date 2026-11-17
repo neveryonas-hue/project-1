@@ -108,6 +108,8 @@ If the profile has a saved card and the customer doesn't want changes:
 A new window opens with a **confirmation number**. Give it to the customer.
 
 > **Note:** You don't need to authorize the caller for this step.
+<img width="500" height="327" alt="03" src="https://github.com/user-attachments/assets/5aaf6747-d4a2-41dc-b796-943a02d4dd66" />
+
 
 </details>
 
