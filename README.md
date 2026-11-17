@@ -58,7 +58,8 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 
 > **Important:** The link expires after 15 minutes. Let the customer know.
 
-<img width="510" height="348" alt="01" src="https://github.com/user-attachments/assets/d3293908-4c4f-4a62-85f3-6c49e6729fb2" />
+<img width="504" height="339" alt="01" src="https://github.com/user-attachments/assets/06a54b0e-d01a-4d1a-ad04-2a0580f494db" />
+
 
 
 
