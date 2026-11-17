@@ -78,6 +78,9 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 3. Leave **Save Card** unchecked so the existing card stays as default.
 4. Send the secure link by **email** or **SMS**.
 
+   <img width="412" height="249" alt="02" src="https://github.com/user-attachments/assets/ba335fdc-4354-4456-9659-343028255b89" />
+
+
 **Replace the saved card with a new one**
 
 1. Authorize the customer.
