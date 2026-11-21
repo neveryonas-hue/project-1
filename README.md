@@ -10,7 +10,7 @@
 
 ## Can we ask the customer for their card number?
 
-**Never.** Cedarline Business uses the **SecurePay Link Tool** so customers enter their own card details through a secure form. This meets Payment Card Industry (PCI) standards and protects customer information.
+**Never.** Feature Not a Bug Inc uses the **SecurePay Link Tool** so customers enter their own card details through a secure form. This meets *Payment Card Industry (PCI)* standards and protects customer information.
 
 - These calls are handled by the Business Support Team.
 - Customers can also pay online and set up auto-pay through **My AccountHub**. Mention it on every call.
@@ -18,109 +18,130 @@
 
 > **Important:** The secure link is only active for **15 minutes**. Tell the customer when you send it.
 
-Click a section below to expand it.
-
 ---
 
-<details>
-<summary><b>Step 1. Launch the tool from AccountHub</b></summary>
+## Prepare in AccountHub
 
 Log in to AccountHub, open the customer profile, and scroll to the **Payment Profile** section.
 
-**Set up auto-pay (if the customer wants it):**
+<details>
+<summary><b>Optional. Set up auto-pay (if the customer wants it)</b></summary>
 
 1. Check **Autopay** to use this card for automatic recurring payments.
 2. Enter the preferred withdrawal date.
 3. Enter the email address for the receipt.
 4. Select **Save** (top right).
 
-**Then choose how to launch the tool:**
+<img width="600" alt="accounthub-autopay" src="https://github.com/user-attachments/assets/766489ee-6a3e-4162-a3ac-1cdfec22c232" />
+
+</details>
+
+<details>
+<summary><b>Step 1. Launch the SecurePay Link Tool</b></summary>
+
+**Choose how to launch the tool:**
 
 - **Make Credit Card Payment** if a card is already on file.
 - **Set up Credit Card Profile** to add, change or delete a card.
 
-> **Good to know:** When Autopay is selected, the payment token is generated automatically by the tool and can't be edited. If you just created the profile, refresh the screen to see the token appear.
-
-
-
+<img width="600" alt="accounthub-launch" src="https://github.com/user-attachments/assets/17b8ce13-09bc-4028-8200-db7b2e650da1" />
 
 </details>
 
-<details>
-<summary><b>Step 2. Create a new payment profile</b></summary>
+---
 
-If no profile exists, you'll see a setup screen after selecting **Set up Credit Card Profile**.
+## Choose what the customer needs
 
-1. Authorize the customer.
-2. Select **Add Card**.
-3. Check **Pre-Auth Flag** if the customer wants automatic payments. This registers the card for auto-pay. Autopay must also be selected in AccountHub.
-4. Send the secure link by **email** or **SMS**.
-
-> **Important:** The link expires after 15 minutes. Let the customer know.
-
-<img width="397" height="241" alt="01" src="https://github.com/user-attachments/assets/07f88ac1-47c9-4700-bffb-d85d729d5641" />
-
-
-
-</details>
+Pick the scenario that matches the call.
 
 <details>
-<summary><b>Step 3. Update an existing profile</b></summary>
+<summary><b>Customer wants to pay with their saved card</b></summary>
 
-
-
-> Use **Set up Credit Card Profile** in AccountHub when a profile already exists.
-
-**One-time payment on a different card (keep the saved card as default)**
-
-1. Enter the payment amount. Full or partial payments are accepted.
-2. Select **New Credit Card**.
-3. Leave **Save Card** unchecked so the existing card stays as default.
-4. Send the secure link by **email** or **SMS**.
-
-   <img width="412" height="249" alt="02" src="https://github.com/user-attachments/assets/ba335fdc-4354-4456-9659-343028255b89" />
-
-
-**Replace the saved card with a new one**
-
-1. Authorize the customer.
-2. Enter the payment amount (full or partial).
-3. Select **Credit Card** as the payment method.
-4. Select **Delete Credit Card**, then **Remove Card**.
-5. Check **Save Card**.
-6. Send the secure link by **email** or **SMS**.
-
-> **Watch for this:** You'll get an error when removing a card if the customer is on auto-pay. Go back to AccountHub, edit the account and uncheck **Autopay**, then try again.
-
-> **Note:** On an auto-pay account, sending a link to change card details **replaces** the card on file.
-
-</details>
-
-<details>
-<summary><b>Step 4. Take a payment on a saved card</b></summary>
+*Uses: Make Credit Card Payment*
 
 If the profile has a saved card and the customer doesn't want changes:
 
-1. Confirm the **last 4 digits** of the card. If they want a different card, select **New Card** and follow section 3.
+1. Confirm the **last 4 digits** of the card.
 2. Enter the payment amount (full or partial).
 3. Select **Pay Now**.
 
 A new window opens with a **confirmation number**. Give it to the customer.
 
 > **Note:** You don't need to authorize the caller for this step.
-<img width="500" height="327" alt="03" src="https://github.com/user-attachments/assets/5aaf6747-d4a2-41dc-b796-943a02d4dd66" />
 
+<img width="600" alt="make-payment" src="https://github.com/user-attachments/assets/d396b36e-b759-4214-8eb6-65c79cb79654" />
 
 </details>
 
 <details>
-<summary><b>5. What the customer sees</b></summary>
+<summary><b>Customer has no card on file</b></summary>
+
+*Uses: Set up Credit Card Profile*
+
+If no profile exists, you'll see a setup screen after selecting **Set up Credit Card Profile**.
+
+1. Authorize the customer.
+2. Select **Add Card**.
+3. Check **Pre-Auth Flag** if the customer wants automatic payments. This registers the card for auto-pay.
+   > **Reminder:** Autopay must also be selected in AccountHub.
+4. Send the secure link by **email** or **SMS**.
+
+> **Important:** The link expires after 15 minutes. Let the customer know.
+
+<img width="600" alt="no-profile" src="https://github.com/user-attachments/assets/0008f042-d088-4c9c-a2c9-514ac401022e" />
+
+</details>
+
+<details>
+<summary><b>Customer wants to pay once with a different card</b></summary>
+
+*Uses: Set up Credit Card Profile. The saved card stays as the default.*
+
+1. Enter the payment amount. Full or partial payments are accepted.
+2. Select **New Credit Card**.
+3. Leave **Save Card** unchecked so the existing card stays as default.
+4. Send the secure link by **email** or **SMS**.
+
+<img width="600" alt="new-card" src="https://github.com/user-attachments/assets/c1dfa500-3064-4216-b227-e28b9a7eb849" />
+
+</details>
+
+<details>
+<summary><b>Customer wants to replace their saved card</b></summary>
+
+*Uses: Set up Credit Card Profile. The new card becomes the default.*
+
+1. Authorize the customer.
+2. Enter the payment amount (full or partial).
+3. Select **Credit Card** as the payment method.
+4. Select **Delete Credit Card**, then **Remove Card**.
+
+<img width="600" alt="replace-card-1" src="https://github.com/user-attachments/assets/19aabb03-3c35-43d3-b5c5-3a8012be0968" />
+
+5. Check **Save Card**.
+6. Send the secure link by **email** or **SMS**.
+
+<img width="600" alt="replace-card-2" src="https://github.com/user-attachments/assets/1bc2d2bb-531e-4407-a07a-fdabc4ab5d66" />
+
+> **Watch for this:** You'll get an error when removing a card if the customer is on auto-pay. Go back to AccountHub, edit the account and uncheck **Autopay**, then try again.
+
+> **Note:** On an auto-pay account, sending a link to change card details **replaces** the card on file.
+
+</details>
+---
+
+## What is the customer experience?
+
+
 
 After you send the secure link, here's the customer's experience. Walk them through it if they're unsure.
 
+<details>
+<summary><b>5. What the customer sees</b></summary>
+
 **Step 1: They receive the link.** It arrives by email or SMS, depending on what you selected. They select it and land on a secure form.
 
-<img width="355" height="387" alt="06" src="https://github.com/user-attachments/assets/0b6f9a3a-0312-4ad1-bdf5-e90fa0e6fc12" />
+   <img width="355" height="387" alt="06" src="https://github.com/user-attachments/assets/0b6f9a3a-0312-4ad1-bdf5-e90fa0e6fc12" />
 
 **Step 2: They complete the form.**
 - *New profile:* the customer enters the payment amount.
