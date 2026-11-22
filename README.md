@@ -20,12 +20,12 @@
 
 ---
 
-## Can we ask the customer for their card number?
+## Can We Ask The Customer For Their Card Number?
 
 **Never.** Feature Not a Bug Inc. uses the **SecurePay Link Tool** so customers enter their own card details through a secure form. After the customer enters their card, SecurePay sends AccountHub a token, a code that stands in for the card number, so agents never see or store the real card details. This meets *Payment Card Industry (PCI)* standards and protects customer information.
 
-- These calls are handled by the SBM Support Team.
-- Customers can also pay online and set up auto-pay through **My AccountHub**. Mention it on every call.
+- These calls are handled by the SMB Support Team.
+- Customers can also pay online and set up auto-pay through **My Account**. Mention it on every call.
 - Tool not working? See *Troubleshooting* below.
 
 > **Important:** The secure link is only active for **15 minutes**. Tell the customer when you send it.
@@ -34,7 +34,7 @@
 
 ## Prepare the Account in AccountHub
 
-Log in to AccountHub, open the customer profile, and scroll to the **Payment Profile** section.
+Log in to AccountHub in Salesforce Lightning, open the customer profile, and scroll to the **Payment Profile** section.
 
 Expand the sections below for more information.
 
@@ -153,7 +153,7 @@ Expand the section below to understand what the customer sees after you send the
 <summary><b>The Customer Experience</b></summary>
 
 **Step 1: Customer receives the link.** 
-The link arrives by email or SMS, depending on what you selected. The custoner selects it and lands on a secure form.
+The link arrives by email or SMS, depending on what you selected. The customer selects it and lands on a secure form.
 
    <img width="355" height="387" alt="06" src="https://github.com/user-attachments/assets/0b6f9a3a-0312-4ad1-bdf5-e90fa0e6fc12" />
 
@@ -179,6 +179,7 @@ The link arrives by email or SMS, depending on what you selected. The custoner s
 ## Handling Customer Pushback
 
 New processes take customers time to adjust to. Use these positioning statements as a starting point and make them your own.
+
 <details>
 <summary><b>Positioning Statements</b></summary>
 
