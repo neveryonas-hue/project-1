@@ -1,12 +1,19 @@
-<img width="1520" height="200" alt="business-name-light" src="https://github.com/user-attachments/assets/b8157fc8-145e-47c6-846e-ac07e6ae81f9" />
-
-# How to Take Secure Card Payments
-
 > **About this sample:** Recreated from knowledge content I wrote for a national telecom provider's business support team. The company (Feature Not a Bug Inc.), systems (AccountHub, SecurePay Link Tool) and processes are fictional. The structure, writing and design decisions reflect the real work.
 
-- **Audience:** Business support agents handling payment calls
-- **Format:** Task-based knowledge article with expandable sections
-- **Goal:** Help agents find the right procedure in seconds, and handle customer pushback with confidence
+> - **Audience:** Business support agents handling payment calls
+> - **Format:** Task-based knowledge article with expandable sections
+> - **Challenge:** To meet PCI compliance requirements, the company could no longer take card details over the phone. Agents needed to move customers to a secure-link process and expected pushback from customers less comfortable with technology.
+> - **Goal:** Help agents find the right procedure in seconds, and handle customer pushback with confidence
+> - **Outcome:** Agents had one clear reference and ready-made scripts for the new process, so they could guide customers through the secure link instead of taking card details by phone.
+
+---
+
+
+<img width="1520" height="200" alt="business-name-light" src="https://github.com/user-attachments/assets/b8157fc8-145e-47c6-846e-ac07e6ae81f9" />
+
+# Card Payments with the SecurePay Link Tool
+
+> Card details are no longer taken over the phone. This guide shows you how to send customers a secure link, take or update a card payment and answer the questions that come up.
 
 ---
 
