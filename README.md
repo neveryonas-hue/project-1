@@ -6,14 +6,9 @@
 > - **Goal:** Help agents find the right procedure in seconds, and handle customer pushback with confidence
 > - **Outcome:** Agents had one clear reference and ready-made scripts for the new process, so they could guide customers through the secure link instead of taking card details by phone.
 
->   **How I Designed this Article**
-> - **Task-based sections.** Agents arrive with a specific job, like "customer wants a new card." Each accordion matches one job so they can scroll, open and act.
-> - **Warnings where they matter.** The 15-minute expiry and the auto-pay error appear at the exact step where agents hit them, not in a separate list.
-> - **Show the customer's side.** Agents explain the process better when they know what the customer sees.
-> - **Scripts for hard moments.** Positioning statements reduce hesitation on calls where customers push back.
 
+**See also:** [In-app guidance and Suggested Articles in Salesforce Lightning](in-app-guidance/README.md)
 
-**See also:** [In-app guidance and Suggested Articles in Salesforce](in-app-guidance/README.md)
 ---
 
 
@@ -217,8 +212,14 @@ If you are still stuck after checking out the tips below escalate to the Busines
 | Token field is empty after setup | Refresh the AccountHub screen. |
 | Customer's card was replaced unexpectedly | A link was sent with **Save Card** checked. Confirm with the customer and send a new link if needed. |
 
-
 </details>
+
+---
+## How I Designed this Article**
+- **Task-based sections.** Agents arrive with a specific job, like "customer wants a new card." Each accordion matches one job so they can scroll, open and act.
+- **Warnings where they matter.** The 15-minute expiry and the auto-pay error appear at the exact step where agents hit them, not in a separate list.
+- **Show the customer's side.** Agents explain the process better when they know what the customer sees.
+- **Scripts for hard moments.** Positioning statements reduce hesitation on calls where customers push back.
 
 
 
