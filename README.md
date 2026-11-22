@@ -1,3 +1,5 @@
+<img width="1520" height="200" alt="business-name-light" src="https://github.com/user-attachments/assets/b8157fc8-145e-47c6-846e-ac07e6ae81f9" />
+
 # How to Take Secure Card Payments
 
 > **About this sample:** Recreated from knowledge content I wrote for a national telecom provider's business support team. The company (Feature Not a Bug Inc.), systems (AccountHub, SecurePay Link Tool) and processes are fictional. The structure, writing and design decisions reflect the real work.
@@ -10,7 +12,7 @@
 
 ## Can we ask the customer for their card number?
 
-**Never.** Feature Not a Bug Inc uses the **SecurePay Link Tool** so customers enter their own card details through a secure form. This meets *Payment Card Industry (PCI)* standards and protects customer information.
+**Never.** Feature Not a Bug Inc. uses the **SecurePay Link Tool** so customers enter their own card details through a secure form. After the customer enters their card, SecurePay sends AccountHub a token, a code that stands in for the card number, so agents never see or store the real card details. This meets *Payment Card Industry (PCI)* standards and protects customer information.
 
 - These calls are handled by the Business Support Team.
 - Customers can also pay online and set up auto-pay through **My AccountHub**. Mention it on every call.
@@ -23,6 +25,7 @@
 ## Prepare in AccountHub
 
 Log in to AccountHub, open the customer profile, and scroll to the **Payment Profile** section.
+Expand the sections below for more information.
 
 <details>
 <summary><b>Optional. Set up auto-pay (if the customer wants it)</b></summary>
@@ -37,7 +40,7 @@ Log in to AccountHub, open the customer profile, and scroll to the **Payment Pro
 </details>
 
 <details>
-<summary><b>Step 1. Launch the SecurePay Link Tool</b></summary>
+<summary><b>Launch the SecurePay Link Tool</b></summary>
 
 **Choose how to launch the tool:**
 
@@ -52,7 +55,7 @@ Log in to AccountHub, open the customer profile, and scroll to the **Payment Pro
 
 ## Choose what the customer needs
 
-Pick the scenario that matches the call.
+Expand the scenario below that matches the call.
 
 <details>
 <summary><b>Customer wants to pay with their saved card</b></summary>
@@ -128,57 +131,66 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 > **Note:** On an auto-pay account, sending a link to change card details **replaces** the card on file.
 
 </details>
+
 ---
 
 ## What is the customer experience?
 
-
-
-After you send the secure link, here's the customer's experience. Walk them through it if they're unsure.
+Expand the section below to understand what the customer sees after you send the secure link. Walk them through it if they're unsure.
 
 <details>
-<summary><b>5. What the customer sees</b></summary>
+<summary><b>Customer Experience</b></summary>
 
-**Step 1: They receive the link.** It arrives by email or SMS, depending on what you selected. They select it and land on a secure form.
+**Step 1: Customer receives the link.** 
+It arrives by email or SMS, depending on what you selected. They select it and land on a secure form.
 
    <img width="355" height="387" alt="06" src="https://github.com/user-attachments/assets/0b6f9a3a-0312-4ad1-bdf5-e90fa0e6fc12" />
 
-**Step 2: They complete the form.**
+**Step 2: Customer completes the secure form.**
+   
 - *New profile:* the customer enters the payment amount.
 - *Existing profile:* the amount is filled in from what you entered.
-- They enter card details and select **Pay Now**.
-
-**Step 3: They get confirmation.** A confirmation screen shows a confirmation number and a printable receipt.
-
+- The customer enters card details and selects **Pay Now**.
+   
+ 
 > **Note:** If you selected **Save Card**, the customer will see a message that the card will be saved as default and will replace any existing card.
+ 
+**Step 3: Confirmation**
+   
+ A confirmation screen shows a confirmation number and a button to print the receipt.
 
-<!-- Add screenshot: secure form and confirmation screen (fictional data) -->
+
+<img width="600" alt="customer-experience" src="https://github.com/user-attachments/assets/452eacf0-298b-4839-aa4c-75395341129d" />
 
 </details>
 
-<details>
-<summary><b>6. Overdue, suspended and written-off accounts</b></summary>
+---
+## Overdue, suspended and written-off accounts
 
-There are four account statuses for accounts in arrears. Payment options depend on the status:
+There are three account statuses for accounts in arrears. Payment options depend on the status:
 
 | Status | What the customer can do |
 |---|---|
-| **Overdue** | Pay through My Cedarline |
+| **Overdue** | Pay through My Account |
 | **Suspended** | Full payment is required to restore services |
-| **Payment arrangement (escalated)** | Call and speak with an agent to request an arrangement |
-| **Written off** | Can't make payments. Can log in to My Cedarline, but all tabs are disabled with a message to call |
+| **Written off** | Can't make payments. Can log in to My Account, but all tabs are disabled with a message to call |
 
-**For payment arrangements:**
+Customers may call in to request a payment arrangement. Expand the section below for steps on handling these calls.
+<details>
+<summary><b>Payment arrangements:</b></summary>
+
 1. Check the account history for any previously broken arrangements. Promises to pay are not accepted.
 2. Email the Collections Team with the arrangement details to reactivate services.
 3. Record the arrangement in AccountHub under **Activity Notes**.
 
 </details>
 
-<details>
-<summary><b>7. Handling customer pushback</b></summary>
+---
+## Handling Customer Pushback
 
 New processes take customers time to adjust to. Use these positioning statements as a starting point and make them your own.
+<details>
+<summary><b>Positioning Statements</b></summary>
 
 **"This is extra work. I don't have time."**
 > I understand it feels like extra effort, but it protects your card details and your privacy, and it takes under a minute. If you sign up for auto-pay, you won't need to do it every month.
@@ -187,18 +199,20 @@ New processes take customers time to adjust to. Use these positioning statements
 > Yes, it has always been secure. This adds one more step to strengthen that protection.
 
 **"I don't have internet access right now."**
-> No problem. You can pay on My Cedarline using mobile data. We also accept electronic fund transfers. Email us your account number and we'll send the banking details.
+> No problem. You can pay on <b>My Account</b> using mobile data. We also accept electronic fund transfers. Email us your account number and we'll send the banking details.
 
 **"Can't I just give you my card number?"**
 > I'd like to make this easy for you, but I'm not able to take card numbers. To protect your privacy, I'll ask you to enter them yourself.
 
 **"I don't know how. Can't you do it?"**
-> I'm happy to walk you through each step, but I can't enter your details for you. A family member could help, or you can pay at your bank or through My Cedarline once the link has expired.
+> I'm happy to walk you through each step, but I can't enter your details for you. A family member could help, or you can pay at your bank or through <b>My Account</b> once the link has expired.
 
 </details>
 
+## Troubleshooting
+If you are still stuck after checking out the tips below escalate to the Business Support Team lead.
 <details>
-<summary><b>8. Troubleshooting</b></summary>
+<summary><b> Check out these tips</b></summary>
 
 | Problem | What to try |
 |---|---|
@@ -208,7 +222,6 @@ New processes take customers time to adjust to. Use these positioning statements
 | Token field is empty after setup | Refresh the AccountHub screen. |
 | Customer's card was replaced unexpectedly | A link was sent with **Save Card** checked. Confirm with the customer and send a new link if needed. |
 
-Still stuck? Escalate to the Business Support Team lead.
 
 </details>
 
