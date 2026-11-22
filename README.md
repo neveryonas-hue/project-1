@@ -11,7 +11,7 @@
 
 <img width="1520" height="200" alt="business-name-light" src="https://github.com/user-attachments/assets/b8157fc8-145e-47c6-846e-ac07e6ae81f9" />
 
-# Card Payments with the SecurePay Link Tool
+# Credit Card Payments and Changes with the SecurePay Link Tool
 
 > Card details are no longer taken over the phone. This guide shows you how to send customers a secure link, take or update a card payment and answer the questions that come up.
 
@@ -41,7 +41,7 @@ Expand the sections below for more information.
 1. Check **Autopay** to use this card for automatic recurring payments.
 2. Enter the preferred withdrawal date.
 3. Enter the email address for the receipt.
-4. Select **Save** (top right).
+4. Select the **Save** button.
 
 <img width="600" alt="accounthub-autopay" src="https://github.com/user-attachments/assets/766489ee-6a3e-4162-a3ac-1cdfec22c232" />
 
@@ -52,8 +52,8 @@ Expand the sections below for more information.
 
 **Choose how to launch the tool:**
 
-- **Make Credit Card Payment** if a card is already on file.
-- **Set up Credit Card Profile** to add, change or delete a card.
+- Select the **Make Credit Card Payment** button if a card is already on file.
+- Select the **Set up Credit Card Profile** button to add, change or delete a card.
 
 <img width="600" alt="accounthub-launch" src="https://github.com/user-attachments/assets/17b8ce13-09bc-4028-8200-db7b2e650da1" />
 
@@ -74,7 +74,7 @@ If the profile has a saved card and the customer doesn't want changes:
 
 1. Confirm the **last 4 digits** of the card.
 2. Enter the payment amount (full or partial).
-3. Select **Pay Now**.
+3. Select the **Pay Now** button.
 
 A new window opens with a **confirmation number**. Give it to the customer.
 
@@ -92,8 +92,8 @@ A new window opens with a **confirmation number**. Give it to the customer.
 If no profile exists, you'll see a setup screen after selecting **Set up Credit Card Profile**.
 
 1. Authorize the customer.
-2. Select **Add Card**.
-3. Check **Pre-Auth Flag** if the customer wants automatic payments. This registers the card for auto-pay.
+2. Select the **Add Card** button.
+3. Check the **Pre-Auth Flag**  box if the customer wants automatic payments. This registers the card for auto-pay.
    > **Reminder:** Autopay must also be selected in AccountHub.
 4. Send the secure link by **email** or **SMS**.
 
@@ -110,8 +110,8 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 
 1. Enter the payment amount. Full or partial payments are accepted.
 2. Select **New Credit Card**.
-3. Leave **Save Card** unchecked so the existing card stays as default.
-4. Send the secure link by **email** or **SMS**.
+3. Leave the **Save Card** box unchecked so the existing card stays as default.
+4. Click either the **Send Email** button or the **Send SMS** button to send the secure link. 
 
 <img width="600" alt="new-card" src="https://github.com/user-attachments/assets/c1dfa500-3064-4216-b227-e28b9a7eb849" />
 
@@ -125,12 +125,12 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 1. Authorize the customer.
 2. Enter the payment amount (full or partial).
 3. Select **Credit Card** as the payment method.
-4. Select **Delete Credit Card**, then **Remove Card**.
+4. Select **Delete Credit Card**, then the **Remove Card** button.
 
 <img width="600" alt="replace-card-1" src="https://github.com/user-attachments/assets/19aabb03-3c35-43d3-b5c5-3a8012be0968" />
 
-5. Check **Save Card**.
-6. Send the secure link by **email** or **SMS**.
+5. Check the **Save Card** button.
+6. Click either the **Send Email** button or the **Send SMS** button to send the secure link. 
 
 <img width="600" alt="replace-card-2" src="https://github.com/user-attachments/assets/1bc2d2bb-531e-4407-a07a-fdabc4ab5d66" />
 
