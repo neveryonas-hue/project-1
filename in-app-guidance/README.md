@@ -1,8 +1,8 @@
-**In-App Guidance: Taking a Card Payment**
+**Salesforce In-App Guidance & Related Articles**
 
 > **About this sample:** Recreated in-app guidance based on content I built with the Salesforce In-App Guidance app for a national telecom provider. The platform, company and data are fictional. AccountHub is modeled as a Salesforce page, and the secure payment tool is a separate web application, so the guidance covers the Salesforce side.
 
-**See also:** [Knowledge article: How to Take Secure Card Payments](../README.md)
+**See also:** [Knowledge article: Credit Card Payments and Changes with the SecurePay Link Tool](../README.md)
 
 ---
 
@@ -20,7 +20,7 @@ Put short guidance on the page agents already use, at the moment they need it, a
 
 *Trigger: the agent opens the Payment Profile tab.*
 
-<img width="700" alt="Welcome prompt on the Payment Profile page" src="inapp-1-prompt.png" />
+<img width="600" alt="Welcome prompt on the Payment Profile page" src="inapp-1-prompt.png" />
 
 A docked prompt reminds agents never to ask for card numbers. "Show me how" starts the walkthrough, and "Not now" lets experienced agents skip it. The Knowledge panel surfaces the full article.
 
@@ -28,13 +28,13 @@ A docked prompt reminds agents never to ask for card numbers. "Show me how" star
 
 *Trigger: the agent selects "Show me how."*
 
-<img width="700" alt="Walkthrough step 1 highlighting the Autopay row" src="inapp-2-autopay.png" />
+<img width="600" alt="Walkthrough step 1 highlighting the Autopay row" src="inapp-2-autopay.png" />
 
 The Autopay row is highlighted, and the message covers the four actions in one short sentence: check Autopay, set the date, add the email, save.
 
 **3. Walkthrough, step 2 of 2: launch the tool**
 
-<img width="700" alt="Walkthrough step 2 highlighting the launch button" src="inapp-3-launch.png" />
+<img width="600" alt="Walkthrough step 2 highlighting the launch button" src="inapp-3-launch.png" />
 
 The launch button is highlighted, with the 15-minute expiry warning shown at the step where agents send the link.
 
@@ -42,9 +42,9 @@ The launch button is highlighted, with the 15-minute expiry warning shown at the
 
 *Trigger: the agent is on a case where a saved card may be replaced.*
 
-<img width="700" alt="Targeted prompt on the Autopay checkbox" src="inapp-4-preventive.png" />
+<img width="600" alt="Targeted prompt on the Autopay checkbox" src="inapp-4-preventive.png" />
 
-This prompt attaches to the Autopay checkbox and stops the "can't remove card" error before it happens. "View full article" links to the full procedure.
+This prompt attaches to the Autopay checkbox in AccountHub and stops the "can't remove card" error in the SecurePay Link tool before it happens. The "View full article" links to the full procedure.
 
 ---
 
