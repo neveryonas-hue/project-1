@@ -1,6 +1,6 @@
-> **About this sample:** Recreated from knowledge content I wrote for a national telecom provider's business support team. The company (Feature Not a Bug Inc.), systems (AccountHub, SecurePay Link Tool) and processes are fictional. The structure, writing and design decisions reflect the real work.
+> **About this sample:** Recreated from knowledge content I wrote for a Small Medium Business (SBM) support team. The company (Feature Not a Bug Inc.), systems (AccountHub, SecurePay Link Tool) and processes are fictional. The structure, writing and design decisions reflect the real work.
 
-> - **Audience:** Business support agents handling payment calls
+> - **Audience:** SBM support agents handling payment calls
 > - **Format:** Task-based knowledge article with expandable sections
 > - **Challenge:** To meet PCI compliance requirements, the company could no longer take card details over the phone. Agents needed to move customers to a secure-link process and expected pushback from customers less comfortable with technology.
 > - **Goal:** Help agents find the right procedure in seconds, and handle customer pushback with confidence
@@ -21,7 +21,7 @@
 
 **Never.** Feature Not a Bug Inc. uses the **SecurePay Link Tool** so customers enter their own card details through a secure form. After the customer enters their card, SecurePay sends AccountHub a token, a code that stands in for the card number, so agents never see or store the real card details. This meets *Payment Card Industry (PCI)* standards and protects customer information.
 
-- These calls are handled by the Business Support Team.
+- These calls are handled by the SBM Support Team.
 - Customers can also pay online and set up auto-pay through **My AccountHub**. Mention it on every call.
 - Tool not working? See *Troubleshooting* below.
 
@@ -32,6 +32,7 @@
 ## Prepare in AccountHub
 
 Log in to AccountHub, open the customer profile, and scroll to the **Payment Profile** section.
+
 Expand the sections below for more information.
 
 <details>
