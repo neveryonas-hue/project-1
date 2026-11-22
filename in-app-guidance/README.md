@@ -1,4 +1,4 @@
-**Salesforce In-App Guidance & Related Articles**
+**Salesforce In-App Guidance & Suggest Related Articles on Cases**
 
 > **About this sample:** Recreated in-app guidance based on content I built with the Salesforce In-App Guidance app for a national telecom provider. The platform, company and data are fictional. AccountHub is modeled as a Salesforce page, and the secure payment tool is a separate web application, so the guidance covers the Salesforce side.
 
