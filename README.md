@@ -13,6 +13,7 @@
 > - **Scripts for hard moments.** Positioning statements reduce hesitation on calls where customers push back.
 
 
+**See also:** [In-app guidance and Suggested Articles in Salesforce](in-app-guidance/README.md)
 ---
 
 
