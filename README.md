@@ -1,4 +1,4 @@
-> **About this sample:** Recreated from knowledge content I wrote for a Small Medium Business (SBM) support team. The company (Feature Not a Bug Inc.), systems (AccountHub, SecurePay Link Tool) and processes are fictional. The structure, writing and design decisions reflect the real work.
+> **About this sample:** Recreated from knowledge content I wrote for a small medium business (SMB) support team. The company (Feature Not a Bug Inc.), systems (AccountHub, SecurePay Link Tool) and processes are fictional. The structure, writing and design decisions reflect the real work.
 
 > - **Audience:** SBM support agents handling payment calls
 > - **Format:** Task-based knowledge article with expandable sections
