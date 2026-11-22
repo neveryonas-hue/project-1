@@ -1,10 +1,10 @@
 > **About this sample:** Recreated from knowledge content I wrote for a small and medium business (SMB) support team. The company (Feature Not a Bug Inc.), systems (AccountHub, SecurePay Link Tool) and processes are fictional. The structure, writing and design decisions reflect the real work.
 
-> - **Audience:** SMB support agents handling payment calls
-> - **Format:** Task-based knowledge article with expandable sections
-> - **Challenge:** To meet PCI compliance requirements, the company could no longer take card details over the phone. Agents needed to move customers to a secure-link process and expected pushback from customers less comfortable with technology.
-> - **Goal:** Help agents find the right procedure in seconds, and handle customer pushback with confidence
-> - **Outcome:** Agents had one clear reference and ready-made scripts for the new process, so they could guide customers through the secure link instead of taking card details by phone.
+- **Audience:** SMB support agents handling payment calls
+- **Format:** Task-based knowledge article with expandable sections
+- **Challenge:** To meet PCI compliance requirements, the company could no longer take card details over the phone. Agents needed to move customers to a secure-link process and expected pushback from customers less comfortable with technology.
+- **Goal:** Help agents find the right procedure in seconds, and handle customer pushback with confidence
+- **Outcome:** Agents had one clear reference and ready-made scripts for the new process, so they could guide customers through the secure link instead of taking card details by phone.
 
 
 **See also:** [In-app guidance and Suggested Articles in Salesforce Lightning](in-app-guidance/README.md)
