@@ -1,6 +1,6 @@
-**Salesforce In-App Guidance & Suggest Related Articles on Cases**
+**Salesforce Lightning In-App Guidance & Suggest Related Articles on Cases**
 
-> **About this sample:** Recreated in-app guidance based on content I built with the Salesforce In-App Guidance app for a national telecom provider. The platform, company and data are fictional. AccountHub is modeled as a Salesforce page, and the secure payment tool is a separate web application, so the guidance covers the Salesforce side.
+> **About this sample:** Recreated in-app guidance based on content I built with the Salesforce Lightning In-App Guidance app to support the new process. The platform, company and data are fictional. AccountHub is modeled as a Salesforce page, and the secure payment tool is a separate web application, so the guidance covers the Salesforce side.
 
 **See also:** [Knowledge article: Credit Card Payments and Changes with the SecurePay Link Tool](../README.md)
 
@@ -47,6 +47,46 @@ The launch button is highlighted, with the 15-minute expiry warning shown at the
 This prompt attaches to the Autopay checkbox in AccountHub and stops the "can't remove card" error in the SecurePay Link tool before it happens. The "View full article" links to the full procedure.
 
 ---
+---
+
+**Suggested Articles on Cases**
+
+**5. Suggested Articles in the Knowledge component**
+
+*Trigger: the agent opens a Case.*
+
+<img width="600" alt="Suggested Articles in the Knowledge component on a Case" src="inapp-5-related-articles.png" />
+
+Customers wrote their own case subjects, so cases arrived in plain, first-person language like "I want to change the credit card on file." I configured Suggested Articles in the Salesforce Knowledge component on the Case record page. Based on the case subject and description, agents see the most relevant articles without leaving the case or searching. The best match appears first, and agents can attach an article to the case with one click.
+
+---
+
+**Reporting**
+
+I built Salesforce reports in Lightning Experience to see how agents used the guidance and the articles:
+
+- **Article views:** which articles agents opened most
+- **In-app guidance clicks:** which prompts and buttons agents used
+- **Search terms:** what agents typed into Knowledge search
+
+Together, these showed where agents needed help and which content to improve. This sample doesn't show real figures.
+
+---
+
+**Design decisions**
+
+- **Help where the work happens.** Guidance appears in AccountHub, where agents handle the payment, and articles appear on the Case, where the customer's request starts.
+- **One action per message.** Each prompt covers a single step and stays short enough to read mid-call.
+- **Warnings at the point of risk.** The link expiry and the auto-pay rule sit on the exact element where agents make the mistake.
+- **Prevention over explanation.** The last prompt avoids an error instead of explaining it afterward.
+- **Guidance and reference work together.** Prompts give a nudge in the moment, and Suggested Articles give the full procedure.
+- **Titles in plain language.** Article titles use the words customers use, like "credit card" and "change," so the right article is easier to match to a case.
+- **Link to depth.** Prompts stay brief and point to the knowledge article for the full procedure.
+- **Easy to skip.** Agents can dismiss any prompt, so experienced staff aren't slowed down.
+
+**How I measured it**
+
+
 
 **Design decisions**
 
@@ -62,4 +102,4 @@ This prompt attaches to the Autopay checkbox in AccountHub and stops the "can't 
 - Prompt views, "Show me how" starts, walkthrough completions and dismissals
 - Clicks on "View full article"
 - Call-handling errors that the guidance targets, such as expired links and failed card removals
-- Agent feedback after the first few weeks, used to shorten or retire prompts that aren't helping
+- Salesforce Reporting after the first few weeks, used to shorten or retire prompts that aren't helping
