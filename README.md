@@ -6,6 +6,13 @@
 > - **Goal:** Help agents find the right procedure in seconds, and handle customer pushback with confidence
 > - **Outcome:** Agents had one clear reference and ready-made scripts for the new process, so they could guide customers through the secure link instead of taking card details by phone.
 
+>   **How I Designed this Article**
+> - **Task-based sections.** Agents arrive with a specific job, like "customer wants a new card." Each accordion matches one job so they can scroll, open and act.
+> - **Warnings where they matter.** The 15-minute expiry and the auto-pay error appear at the exact step where agents hit them, not in a separate list.
+> - **Show the customer's side.** Agents explain the process better when they know what the customer sees.
+> - **Scripts for hard moments.** Positioning statements reduce hesitation on calls where customers push back.
+
+
 ---
 
 
@@ -29,7 +36,7 @@
 
 ---
 
-## Prepare in AccountHub
+## Prepare the Account in AccountHub
 
 Log in to AccountHub, open the customer profile, and scroll to the **Payment Profile** section.
 
@@ -61,9 +68,9 @@ Expand the sections below for more information.
 
 ---
 
-## Choose what the customer needs
+## Choose What the Customer Needs
 
-Expand the scenario below that matches the call.
+Expand the scenario below that matches the customer's request.
 
 <details>
 <summary><b>Customer wants to pay with their saved card</b></summary>
@@ -142,15 +149,15 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 
 ---
 
-## What is the customer experience?
+## What is the Customer Experience?
 
 Expand the section below to understand what the customer sees after you send the secure link. Walk them through it if they're unsure.
 
 <details>
-<summary><b>Customer Experience</b></summary>
+<summary><b>The Customer Experience</b></summary>
 
 **Step 1: Customer receives the link.** 
-It arrives by email or SMS, depending on what you selected. They select it and land on a secure form.
+The link arrives by email or SMS, depending on what you selected. The custoner selects it and lands on a secure form.
 
    <img width="355" height="387" alt="06" src="https://github.com/user-attachments/assets/0b6f9a3a-0312-4ad1-bdf5-e90fa0e6fc12" />
 
@@ -158,7 +165,7 @@ It arrives by email or SMS, depending on what you selected. They select it and l
    
 - *New profile:* the customer enters the payment amount.
 - *Existing profile:* the amount is filled in from what you entered.
-- The customer enters card details and selects **Pay Now**.
+- The customer enters card details and selects the **Pay Now** button.
    
  
 > **Note:** If you selected **Save Card**, the customer will see a message that the card will be saved as default and will replace any existing card.
@@ -169,27 +176,6 @@ It arrives by email or SMS, depending on what you selected. They select it and l
 
 
 <img width="600" alt="customer-experience" src="https://github.com/user-attachments/assets/452eacf0-298b-4839-aa4c-75395341129d" />
-
-</details>
-
----
-## Overdue, suspended and written-off accounts
-
-There are three account statuses for accounts in arrears. Payment options depend on the status:
-
-| Status | What the customer can do |
-|---|---|
-| **Overdue** | Pay through My Account |
-| **Suspended** | Full payment is required to restore services |
-| **Written off** | Can't make payments. Can log in to My Account, but all tabs are disabled with a message to call |
-
-Customers may call in to request a payment arrangement. Expand the section below for steps on handling these calls.
-<details>
-<summary><b>Payment arrangements:</b></summary>
-
-1. Check the account history for any previously broken arrangements. Promises to pay are not accepted.
-2. Email the Collections Team with the arrangement details to reactivate services.
-3. Record the arrangement in AccountHub under **Activity Notes**.
 
 </details>
 
@@ -233,12 +219,6 @@ If you are still stuck after checking out the tips below escalate to the Busines
 
 </details>
 
----
 
-## How I designed this
 
-- **Task-based sections.** Agents arrive with a specific job, like "customer wants a new card." Each accordion matches one job so they can scroll, open and act.
-- **Warnings where they matter.** The 15-minute expiry and the auto-pay error appear at the exact step where agents hit them, not in a separate list.
-- **Show the customer's side.** Agents explain the process better when they know what the customer sees.
-- **Scripts for hard moments.** Positioning statements reduce hesitation on calls where customers push back.
-- **Edge cases separated.** Overdue and written-off scenarios live in their own section so they don't clutter the main path.
+
