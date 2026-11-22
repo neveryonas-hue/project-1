@@ -132,7 +132,7 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 
 <img width="600" alt="replace-card-1" src="https://github.com/user-attachments/assets/19aabb03-3c35-43d3-b5c5-3a8012be0968" />
 
-5. Check the **Save Card** button.
+5. Check the **Save Card** box.
 6. Click either the **Send Email** button or the **Send SMS** button to send the secure link. 
 
 <img width="600" alt="replace-card-2" src="https://github.com/user-attachments/assets/1bc2d2bb-531e-4407-a07a-fdabc4ab5d66" />
@@ -201,7 +201,7 @@ New processes take customers time to adjust to. Use these positioning statements
 </details>
 
 ## Troubleshooting
-If you are still stuck after checking out the tips below escalate to the Business Support Team lead.
+If you are still stuck after checking out the tips below, escalate to the Business Support Team lead.
 <details>
 <summary><b> Check out these tips</b></summary>
 
