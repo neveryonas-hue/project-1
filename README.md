@@ -7,7 +7,7 @@
 - **Outcome:** Agents had one clear reference and ready-made scripts for the new process, so they could guide customers through the secure link instead of taking card details by phone.
 
 
-**See also:** [In-app guidance and Suggested Articles in Salesforce Lightning](in-app-guidance/README.md)
+**See also:** [In-app Guidance and Suggested Articles in Salesforce Lightning](in-app-guidance/README.md)
 
 ---
 
