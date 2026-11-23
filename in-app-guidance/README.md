@@ -1,6 +1,6 @@
-**Salesforce Lightning In-App Guidance & Suggest Related Articles on Cases**
+**In-App Guidance and Suggested Articles in Salesforce**
 
-> **About this sample:** Recreated in-app guidance based on content I built with the Salesforce Lightning In-App Guidance app to support the new process. The platform, company and data are fictional. AccountHub is modeled as a Salesforce page, and the secure payment tool is a separate web application, so the guidance covers the Salesforce side.
+> **About this sample:** Recreated from Salesforce content I built for a national telecom provider. The platform, company and data are fictional. In-app guidance is shown in the AccountHub app, modeled as a Salesforce app. Suggested Articles are shown on Case records. The secure payment tool is a separate web application, so the guidance covers the Salesforce side. Only the main article title is real to this sample; the other suggested article titles are illustrative.
 
 **See also:** [Knowledge article: Credit Card Payments and Changes with the SecurePay Link Tool](../README.md)
 
@@ -8,21 +8,28 @@
 
 **The problem**
 
-Agents on payment calls follow a security-sensitive process with several rules that are easy to miss: never take card numbers, the secure link expires in 15 minutes, and a card can't be replaced while auto-pay is on. Mistakes happen mid-call, when agents have no time to search an article.
+Agents on payment calls follow a security-sensitive process with several rules that are easy to miss: never take card numbers, the secure link expires in 15 minutes, and a card can't be replaced while auto-pay is on. Mistakes happen mid-call, when agents have no time to search for an article.
 
 **The approach**
 
-Put short guidance on the page agents already use, at the moment they need it, and link to the full knowledge article for depth.
+Put help where agents already work, in two layers:
+
+1. **In-app guidance in the AccountHub app** gives short prompts and walkthroughs on the customer profile, at the fields where mistakes happen.
+2. **Suggested Articles on Cases** surface the right knowledge article when a customer's request arrives, so agents don't have to search.
+
+Both link to the full knowledge article for depth, and Salesforce reports show how agents use them.
 
 ---
 
+**In-app guidance in the AccountHub app**
+
 **1. Welcome prompt**
 
-*Trigger: the agent opens the Payment Profile tab.*
+*Trigger: the agent opens the Payment Profile tab on a customer profile.*
 
-<img width="600" alt="Welcome prompt on the Payment Profile page" src="inapp-1-prompt.png" />
+<img width="600" alt="Welcome prompt on the Payment Profile tab in AccountHub" src="inapp-1-prompt.png" />
 
-A docked prompt reminds agents never to ask for card numbers. "Show me how" starts the walkthrough, and "Not now" lets experienced agents skip it. The Knowledge panel surfaces the full article.
+A docked prompt reminds agents never to ask for card numbers. "Show me how" starts the walkthrough, and "Not now" lets experienced agents skip it.
 
 **2. Walkthrough, step 1 of 2: auto-pay**
 
@@ -40,13 +47,12 @@ The launch button is highlighted, with the 15-minute expiry warning shown at the
 
 **4. Targeted prompt: preventing a known error**
 
-*Trigger: the agent is on a case where a saved card may be replaced.*
+*Trigger: the agent views the Payment Profile.*
 
 <img width="600" alt="Targeted prompt on the Autopay checkbox" src="inapp-4-preventive.png" />
 
-This prompt attaches to the Autopay checkbox in AccountHub and stops the "can't remove card" error in the SecurePay Link tool before it happens. The "View full article" links to the full procedure.
+This prompt attaches to the Autopay checkbox in AccountHub and stops the "can't remove card" error in the SecurePay Link Tool before it happens. "View full article" links to the full procedure.
 
----
 ---
 
 **Suggested Articles on Cases**
@@ -86,20 +92,6 @@ Together, these showed where agents needed help and which content to improve. Th
 
 **How I measured it**
 
-
-
-**Design decisions**
-
-- **Triggered by the task.** Prompts appear where the work happens, not in a separate help area.
-- **One action per message.** Each prompt covers a single step and stays short enough to read mid-call.
-- **Warnings at the point of risk.** The link expiry and the auto-pay rule sit on the exact element where agents make the mistake.
-- **Prevention over explanation.** The last prompt avoids an error instead of explaining it afterward.
-- **Link to depth.** Prompts stay brief and point to the knowledge article for the full procedure.
-- **Easy to skip.** Agents can dismiss any prompt, so experienced staff aren't slowed down.
-
-**How I would measure it**
-
-- Prompt views, "Show me how" starts, walkthrough completions and dismissals
-- Clicks on "View full article"
-- Call-handling errors that the guidance targets, such as expired links and failed card removals
-- Salesforce Reporting after the first few weeks, used to shorten or retire prompts that aren't helping
+- **Reports:** article views, in-app guidance clicks, and search terms
+- **What to look for:** searches with no good match (a wording gap in the articles), articles with low views despite relevant cases, and prompts that agents rarely click (shorten or retire them)
+- **Agent feedback** after the first few weeks, used alongside the reports
