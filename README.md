@@ -20,7 +20,7 @@
 
 ---
 
-## Can We Ask The Customer For Their Card Number?
+## Can We Ask the Customer for Their Card Number?
 
 **Never.** Feature Not a Bug Inc. uses the **SecurePay Link Tool** so customers enter their own card details through a secure form. After the customer enters their card, SecurePay sends AccountHub a token, a code that stands in for the card number, so agents never see or store the real card details. This meets *Payment Card Industry (PCI)* standards and protects customer information.
 
