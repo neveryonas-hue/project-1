@@ -12,7 +12,7 @@
 ---
 
 
-<img width="1520" height="200" alt="business-name-light" src="https://github.com/user-attachments/assets/b8157fc8-145e-47c6-846e-ac07e6ae81f9" />
+<img width="1520" height="200" alt="fake logo for fake company" src="https://github.com/user-attachments/assets/b8157fc8-145e-47c6-846e-ac07e6ae81f9" />
 
 # Credit Card Payments and Changes with the SecurePay Link Tool
 
@@ -46,7 +46,7 @@ Expand the sections below for more information.
 3. Enter the email address for the receipt.
 4. Select the **Save** button.
 
-<img width="600" alt="accounthub-autopay" src="https://github.com/user-attachments/assets/766489ee-6a3e-4162-a3ac-1cdfec22c232" />
+<img width="600" alt="set up auto-pay" src="https://github.com/user-attachments/assets/766489ee-6a3e-4162-a3ac-1cdfec22c232" />
 
 </details>
 
@@ -58,7 +58,7 @@ Expand the sections below for more information.
 - Select the **Make Credit Card Payment** button if a card is already on file.
 - Select the **Set up Credit Card Profile** button to add, change or delete a card.
 
-<img width="600" alt="accounthub-launch" src="https://github.com/user-attachments/assets/17b8ce13-09bc-4028-8200-db7b2e650da1" />
+<img width="600" alt="launch securepay link tool" src="https://github.com/user-attachments/assets/17b8ce13-09bc-4028-8200-db7b2e650da1" />
 
 </details>
 
@@ -83,7 +83,7 @@ A new window opens with a **confirmation number**. Give it to the customer.
 
 > **Note:** You don't need to authorize the caller for this step.
 
-<img width="600" alt="make-payment" src="https://github.com/user-attachments/assets/d396b36e-b759-4214-8eb6-65c79cb79654" />
+<img width="600" alt="make a credit card payment" src="https://github.com/user-attachments/assets/d396b36e-b759-4214-8eb6-65c79cb79654" />
 
 </details>
 
@@ -102,7 +102,7 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 
 > **Important:** The link expires after 15 minutes. Let the customer know.
 
-<img width="600" alt="no-profile" src="https://github.com/user-attachments/assets/0008f042-d088-4c9c-a2c9-514ac401022e" />
+<img width="600" alt="no credit card profile" src="https://github.com/user-attachments/assets/0008f042-d088-4c9c-a2c9-514ac401022e" />
 
 </details>
 
@@ -116,7 +116,7 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 3. Leave the **Save Card** box unchecked so the existing card stays as default.
 4. Click either the **Send Email** button or the **Send SMS** button to send the secure link. 
 
-<img width="600" alt="new-card" src="https://github.com/user-attachments/assets/c1dfa500-3064-4216-b227-e28b9a7eb849" />
+<img width="600" alt="set up new card" src="https://github.com/user-attachments/assets/c1dfa500-3064-4216-b227-e28b9a7eb849" />
 
 </details>
 
@@ -130,12 +130,12 @@ If no profile exists, you'll see a setup screen after selecting **Set up Credit 
 3. Select **Credit Card** as the payment method.
 4. Select **Delete Credit Card**, then the **Remove Card** button.
 
-<img width="600" alt="replace-card-1" src="https://github.com/user-attachments/assets/19aabb03-3c35-43d3-b5c5-3a8012be0968" />
+<img width="600" alt="removeexisting card" src="https://github.com/user-attachments/assets/19aabb03-3c35-43d3-b5c5-3a8012be0968" />
 
 5. Check the **Save Card** box.
 6. Click either the **Send Email** button or the **Send SMS** button to send the secure link. 
 
-<img width="600" alt="replace-card-2" src="https://github.com/user-attachments/assets/1bc2d2bb-531e-4407-a07a-fdabc4ab5d66" />
+<img width="600" alt="send secure link" src="https://github.com/user-attachments/assets/1bc2d2bb-531e-4407-a07a-fdabc4ab5d66" />
 
 > **Watch for this:** You'll get an error when removing a card if the customer is on auto-pay. Go back to AccountHub, edit the account and uncheck **Autopay**, then try again.
 
@@ -155,7 +155,7 @@ Expand the section below to understand what the customer sees after you send the
 **Step 1: Customer receives the link.** 
 The link arrives by email or SMS, depending on what you selected. The customer selects it and lands on a secure form.
 
-   <img width="355" height="387" alt="06" src="https://github.com/user-attachments/assets/0b6f9a3a-0312-4ad1-bdf5-e90fa0e6fc12" />
+   <img width="355" height="387" alt="customer receives link" src="https://github.com/user-attachments/assets/0b6f9a3a-0312-4ad1-bdf5-e90fa0e6fc12" />
 
 **Step 2: Customer completes the secure form.**
    
@@ -171,7 +171,7 @@ The link arrives by email or SMS, depending on what you selected. The customer s
  A confirmation screen shows a confirmation number and a button to print the receipt.
 
 
-<img width="600" alt="customer-experience" src="https://github.com/user-attachments/assets/452eacf0-298b-4839-aa4c-75395341129d" />
+<img width="600" alt="the customer experience" src="https://github.com/user-attachments/assets/452eacf0-298b-4839-aa4c-75395341129d" />
 
 </details>
 
